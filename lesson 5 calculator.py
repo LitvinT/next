@@ -1,13 +1,13 @@
 f_num = float(input('Введите число'))
-oper = input('Введите операцию')
+pro = input('Введите операцию')
 s_num = float(input('Введите второе число'))
-if oper == '+':
+if pro == '+':
     print(f_num + s_num)
-elif oper == '-':
+elif pro == '-':
     print(f_num - s_num)
-elif oper == '*':
+elif pro == '*':
     print(f_num * s_num)
-elif oper == '/':
+elif pro == '/':
     print(f_num / s_num)
 else:
     print('Error')
