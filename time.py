@@ -7,8 +7,22 @@ class Time:
 
     def get_timeline(self):
         print('начало' + str(self.start_time), + 'конец'+ str(self.end_time), + 'промежуток' + str(self.delta))
-        for i in range(str(self.start_time,self.end_time,self.delta)):
-            return self.start_time
+        while(True):
+            if self.start_time + self.delta:
+                print(' нет свободного времени')
+                break
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
